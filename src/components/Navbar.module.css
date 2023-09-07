@@ -1,0 +1,26 @@
+.nav {
+  height: 10rem;
+  padding: 2rem 0;
+  margin: 0 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navList {
+  display: flex;
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed';
+  letter-spacing: 0.27rem;
+  font-size: 1.6rem;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-end;
+
+  list-style: none;
+  text-decoration: none;
+  background: transparent;
+
+  color: white;
+}
